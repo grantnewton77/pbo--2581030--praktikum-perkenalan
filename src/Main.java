@@ -15,6 +15,8 @@ public class Main {
         System.out.print("Masukkan Umur : ");
         Integer umur = input.nextInt();
 
+        System.out.print("Masukkan Tinggi : ");
+        Double tinggi = input.nextDouble();
 
         input.nextLine();
 
@@ -23,7 +25,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Halo! Nama sasya " + nama + " (NIM " + nim + "), umur " + umur + " tahun, ");
-
+        System.out.println("tinggi " + tinggi + " cm");
         }
 
 
