@@ -20,12 +20,13 @@ public class Main {
 
         input.nextLine();
 
-
+        System.out.print("Masukkan Asal Kota : ");
+        String asal_kota = input.nextLine();
 
         System.out.println();
 
         System.out.println("Halo! Nama sasya " + nama + " (NIM " + nim + "), umur " + umur + " tahun, ");
-        System.out.println("tinggi " + tinggi + " cm");
+        System.out.println("tinggi " + tinggi + " cm, berasal dari " + asal_kota + ".");
         }
 
 
